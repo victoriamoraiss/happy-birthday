@@ -35,7 +35,7 @@ p {
     display: none;
     width: 700px;
     position: fixed;
-    animation: cair 5s linear forwards;
+    animation: cair 4s linear;
     pointer-events: none;
 }
 
@@ -44,7 +44,7 @@ p {
     width: 700PX;
     position: fixed;
     right: 1%;
-    animation: cair 5s linear forwards;
+    animation: cair 4s linear;
     pointer-events: none;
 }
 
