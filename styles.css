@@ -1,0 +1,73 @@
+body {
+    background-color: bisque;
+}
+
+p {
+    display: none;
+    justify-content: center;
+}
+
+.carter-one-regular {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color:brown;
+}
+
+#letter {
+    display: none;
+    width: 250px;
+    position:absolute;
+    bottom: 20%;
+    right: 30%;
+}
+
+#paper {
+    display: none;
+    width: 250px;
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+}
+
+#c1 {
+    display: none;
+    width: 700px;
+    position: fixed;
+    animation: cair 5s linear forwards;
+    pointer-events: none;
+}
+
+#c2 {
+    display: none;
+    width: 700PX;
+    position: fixed;
+    right: 1%;
+    animation: cair 5s linear forwards;
+    pointer-events: none;
+}
+
+
+@keyframes cair{
+    from{ 
+        transform: translateY(-1000px);}
+        
+    to{ 
+        transform: translateY(2000px);}
+}
+
+#flower {
+    display: none;
+    position: absolute;
+    left: 400px;
+    top: 35%;
+    width: 250px;
+}
+
+#gift {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
