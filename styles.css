@@ -44,7 +44,6 @@ p {
     width: 700PX;
     position: fixed;
     right: 1%;
-    animation: cair 4s linear;
     pointer-events: none;
 }
 

@@ -15,7 +15,7 @@ setTimeout(function(){
     document.getElementById("c1").remove();
     document.getElementById("c2").remove();
     document.getElementByClassName("confettis").remove()
-}, 4000);
+}, 5000);
 
 const g =  document.getElementById('gift');
 const f = document.getElementById('flower');
@@ -32,4 +32,6 @@ g.addEventListener("click", function(){
     l.style.display = "flex";
     cf1.style.display = "flex";
     cf2.style.display = "flex";
+    cf1.style.animation = "cair 5s linear";
+    cf2.style.animation = "cair 5s linear";
 })
